@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="227dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00ffffff"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:paddingTop="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginBottom="148dp"
+        android:id="@+id/et1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/input_outline"
+        android:includeFontPadding="true"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:hint="Enter your name here..."
+        android:singleLine="true"
+        android:maxLength="20" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:id="@+id/et2"
+        android:background="@drawable/input_outline"
+        android:includeFontPadding="true"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/et1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="68dp"
+        android:hint="Enter your bio here..."
+        android:singleLine="true"
+        android:maxLength="50" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_bt"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18sp" />
+</RelativeLayout>

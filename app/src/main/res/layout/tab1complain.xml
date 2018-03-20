@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mimage"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    tools:context="com.yashnagda.onebuttoncontrol.tab1complain">
+
+
+    <ImageView
+        android:id="@+id/obcimage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/mimage"
+        app:srcCompat="@drawable/add_image" />
+
+    <EditText
+        android:id="@+id/obctext"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/input_outline"
+        android:ems="10"
+        android:hint="add your description here..."
+        android:inputType="textMultiLine"
+        android:nextFocusLeft="@id/obctext"
+        android:nextFocusUp="@id/obctext"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/obcbutton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight=".5"
+        android:background="@drawable/sep"
+        android:text="SUBMIT"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp" />
+</LinearLayout>

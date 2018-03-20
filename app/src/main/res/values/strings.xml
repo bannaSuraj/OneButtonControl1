@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">OBC</string>
+    <string name="GPSAlertDialogTitle">GPS is not ON !!</string>
+    <string name="GPSAlertDialogMessage">do you want to turn on the GPS</string>
+    <string name="action_settings">Log out</string>
+    <string name="cancel">cancel</string>
+    <string name="title_activity_main2">OBC</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">OBC</string>
+    <string name="slide_1_desc">One Button Control</string>
+
+    <string name="slide_2_title">ONE BUTTON CONTROL</string>
+    <string name="slide_2_desc">We are providing one button interface with full privacy
+        for reducing power theft!</string>
+
+    <string name="slide_3_title">Turn on Location </string>
+    <string name="slide_3_desc">we are using your location please turn on the GPS !!</string>
+
+    <string name="slide_4_title">Power Theft Stats </string>
+    <string name="slide_4_desc">We are providing stats of power theft according to the city and time</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="gps_action_settings">Yes</string>
+    <string name="gps_cancel">No</string>
+    <string-array name="mydata">
+        <item>yash</item>
+        <item>yash</item><item>yash</item><item>yash</item><item>yash</item>
+
+    </string-array>
+</resources>
